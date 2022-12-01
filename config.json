@@ -1,0 +1,58 @@
+{
+	"name": "My Module",
+
+	"namespace": "Stanford\\MyModule",
+
+	"description": "Test",
+
+	"documentation": "README.md",
+
+	"framework-version": 11,
+
+	"authors": [
+		{
+			"name": "Andy Martin",
+			"email": "andy123@stanford.edu",
+			"institution": "Stanford"
+		}
+	],
+
+	"permissions": [
+		"redcap_add_edit_records_page",
+		"redcap_module_configure_button_display"
+	],
+	
+	"enable-every-page-hooks-on-system-pages": false,	
+
+	"links": {
+		"project": [
+
+		],
+		"control-center": [
+
+		]
+	},
+
+	"no-auth-pages": [
+
+	],
+
+	"project-settings": [
+
+	],
+
+	"system-settings": [
+
+	],
+
+	"crons": [
+
+	],
+
+	"compatibility": {
+		"php-version-min": "",
+		"php-version-max": "",
+		"redcap-version-min": "",
+		"redcap-version-max": ""
+	}
+}
